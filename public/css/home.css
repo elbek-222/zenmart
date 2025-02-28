@@ -39,7 +39,58 @@
 
   color: #041e42;
 }
+/* PAGIONATION */
+.container .pagionation_box {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pagionation_box .pagionation_main {
+  width: auto;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pagionation_main .pagionation_dot {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.pagionation_main img {
+  cursor: pointer;
+}
+
+.pagionation_dot .dot {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.pagionation_dot .dot.active {
+  border: 2px solid #112137;
+}
+
+.pagionation_dot .dot div {
+  width: 4px;
+  height: 4px;
+
+  background: #112137;
+  border-radius: 50%;
+}
+/* HEADER FRAME */
 .header_frame {
   display: flex;
   position: relative;
