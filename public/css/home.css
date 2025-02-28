@@ -246,7 +246,7 @@
   color: #041e42;
 }
 
-.header_frame .box_left .hover_border {
+.container .hover_border {
   margin-top: 3px;
 
   width: 32px;
